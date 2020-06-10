@@ -24,9 +24,9 @@ draw_plot.py，主要是绘图和数据统计等功能性函数。
 依赖库说明：
 由于直接调用matlab文件，需要在安装matlab后，进入 "matlab安装目录\extern\engines\python"目录下，shift+右键打开powershell
 之后输入python setup.py install进行安装，即可在python文件中调用matlab文件。
-其余应均为python自带的标准库，不需要额外安装，如有遗漏，请根据import错误的位置百度查找对应的库并使用pip install安装。
 强化学习相关的代码主要使用TensorFlow和gym库。
 验证平台的相关代码使用库包括opencv-python, pillow, matplotlib, tkinter
+如有遗漏，请根据import错误的位置百度查找对应的库并使用pip install安装。
 
 开源代码说明：
 本项目的强化学习部分的源代码参考https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
